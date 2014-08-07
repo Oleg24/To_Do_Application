@@ -1,0 +1,39 @@
+body{
+  font-family: Arial, sans-serif;
+  padding: 50px 80px;
+  width: 960px;
+
+}
+.title{
+	font-family: "Cantarell", sans-serif;
+
+}
+#todoApp{
+  width:900px;
+  margin:auto;
+  font-size: 1.9em;
+}
+#new-tasks{
+	color: red;
+	font-family: 'Permanent Marker', cursive;
+}
+#completedTaskList{
+	color: green;
+	font-family: 'Permanent Marker', cursive;
+	font-size: 1.2em;
+}
+#submitBtn{
+	border: 2px solid #3f3f3f;
+	color: #3f3f3f;
+	background: #ffea09;
+	font-weight: bold;  
+	font-family: "Cantarell" ,sans-serif;
+}
+#submitBtn:hover {
+	background: #9fbf7f;
+
+}
+#newTaskInput{
+	width: 350px;
+	font-style: italic;
+}
